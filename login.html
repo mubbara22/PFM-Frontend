@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Personal Finance Manager</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Finance Manager</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="login-form">
+            <h2>Login</h2>
+            <form method="POST" >
+                <label for="gmail">Gmail:</label>
+                <div>
+                <input type="gmail" id="gmail" name="gmail" required>
+            </div>   
+                <label for="password">Password:</label>
+                <div>
+                <input type="password" id="password" name="password" required>
+              </div>
+                <button type="submit">Login</button>
+            </form>
+            <p>Not have an account?<a href="signup.html">Sign up here</a></p>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
